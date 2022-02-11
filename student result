@@ -1,0 +1,24 @@
+sno=int(input("enter sno"))
+sname=(input("enter sname"))
+s1=int(input("enter s1 marks"))
+s2=int(input("enter s2 marks"))
+s3=int(input("enter s3 marks"))
+s4=int(input("enter s4 marks"))
+s5=int(input("enter s5 marks"))
+s6=int(input("enter s6 marks"))
+total=s1+s2+s3
+avg=total/3
+if avg>=91:
+    print("o grade")
+elif avg>81:
+           print("a grade")
+elif avg>71:
+            print("b grade")
+elif avg>61:
+            print("c grade")
+elif avg>51:
+            print("d grade")
+elif avg>=40:
+             print("pass")
+else:
+    print("fail")
